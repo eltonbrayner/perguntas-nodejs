@@ -8,7 +8,7 @@
         <h3>Realizar Pergunta</h3>
       </div>
       <div class="card-body">
-        <form method="POST" action="/salvarpergunta">
+        <form method="POST" action="/salvarpergunta" onsubmit="btnInsert.disabled = true; return true;"></form>>
           <label>Titulo</label>
           <input
             type="text"
